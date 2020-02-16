@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Abhishek Ajay
+name: "Abhishek Ajay"
 
 # Username (this should match the folder name)
 authors:
@@ -55,10 +55,10 @@ social:
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 - icon: cv
   icon_pack: ai
-  link: "./static/files/cv.pdf"
+  link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+#email: ""
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
