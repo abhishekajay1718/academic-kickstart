@@ -52,8 +52,8 @@ date_format = "Jan 2006"
   company = "Columbia Univesrity Mailman School of Public Health"
   company_url = "https://www.mailman.columbia.edu/"
   location = "New York"
-  date_start = "2017-05-01"
-  date_end = "2018-05-31"
+  date_start = "2019-05-01"
+  date_end = "2019-05-31"
   description = """
   
   * Computed prediction models using Regularized Logistic Regression, K-Nearest Neighbor, Naive Bayes, Support Vector Machines (Radial and Linear Kernel), Random Forest (RF) and Tree based classiﬁcation, etc. to predict whether the day’s closing price will be higher or lower than the day before. 
