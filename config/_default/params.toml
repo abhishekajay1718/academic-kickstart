@@ -9,7 +9,7 @@
 #   Latest themes (may require updating): https://sourcethemes.com/academic/themes/
 #   Browse built-in themes in `themes/academic/data/themes/`
 #   Browse user installed themes in `data/themes/`
-theme = "1950s"
+theme = "minimal"
 
 # Enable users to switch between day and night mode?
 day_night = true
@@ -37,11 +37,11 @@ site_type = "Person"
 
 # Local business type (optional)
 # If you entered "LocalBusiness" above, choose the type of business from https://schema.org/LocalBusiness#subtypes
-local_business_type = ""
+#local_business_type = ""
 
 # Organization name (optional)
 # Enter an organization or project name. Defaults to the site title from `config.toml`.
-org_name = ""
+org_name = "https://www.mailman.columbia.edu/"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
 description = ""
@@ -71,7 +71,7 @@ privacy_pack = false
 
 # Enable visitors to edit pages?
 #   `repo` defines the repository URL. `editable` defines which page types can be edited.
-edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", content_dir = "", repo_branch = "master", editable = {docs = true, page = false, post = false}}
+#edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", content_dir = "", repo_branch = "master", editable = {docs = true, page = false, post = false}}
 
 ############################
 ## Contact details
@@ -90,7 +90,7 @@ address = {street = "718 West 171st", city = "New York", region = "NY", postcode
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "37.4275", longitude = "-122.1697"}
+coordinates = {latitude = "40.844509", longitude =  "-73.942195"}
 
 # Directions for visitors to locate you.
 #directions = "Enter Building 1 and take the stairs to Office 200 on Floor 2"
@@ -120,7 +120,7 @@ contact_links = [
 sharing_image = ""
 
 # Twitter username (without @). Used when a visitor shares your site on Twitter.
-twitter = ""
+twitter = "abhishekajay18"
 
 ############################
 ## Regional Settings
@@ -140,7 +140,7 @@ address_format = "en-us"
 ############################
 
 # Main menu alignment (l = left, c = center, r = right) and logo options.
-main_menu = {align = "l", show_logo = true}
+main_menu = {align = "l", show_logo = false}
 
 # Show estimated reading time for posts? (true/false)
 reading_time = true
@@ -242,7 +242,8 @@ plugins_js  = []
 ## Maps
 ############################
 [map]
-coordinates = {latitude = "40.844509", longitude =  "-73.942195"}
+
+  coordinates = {latitude = "40.844509", longitude =  "-73.942195"}
 
   # To show your address on a map in the Contact widget, enter your latitude and longitude (above)
   # and choose a map provider below.

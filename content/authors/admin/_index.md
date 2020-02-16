@@ -62,9 +62,9 @@ email: ""
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups:
-- Researchers
-- Visitors
+#user_groups:
+#- Researchers
+#- Visitors
 ---
 
 Hi! I am a final year MS Biostatistics student at Columbia University's Mailman School of Public Health. I have experience in dealing with large high-dimensional datasets from a variety of sources. They range from Santander Bank's trasaction data to Electronic Medical Record (EMR) data including medical adminitration record, enounter data, flowsheet data, etc.
