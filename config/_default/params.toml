@@ -241,7 +241,9 @@ plugins_js  = []
 ############################
 ## Maps
 ############################
-[map] #40.844509, -73.942195
+[map]
+coordinates = {latitude = "40.844509", longitude =  "-73.942195"}
+
   # To show your address on a map in the Contact widget, enter your latitude and longitude (above)
   # and choose a map provider below.
   #
